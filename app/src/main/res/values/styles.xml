@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceFrag</item>
+        <item name="android:listSeparatorTextViewStyle">@style/AppTheme.ListSeparatorTextView</item>
+    </style>
+
+    <style name="Toolbar" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/toolbar_text_color</item>
+    </style>
+
+    <style name="PreferenceFrag" parent="PreferenceThemeOverlay">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AppTheme.ListSeparatorTextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+</resources>
